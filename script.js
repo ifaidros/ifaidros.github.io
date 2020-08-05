@@ -1,5 +1,7 @@
 //console.log('script file loaded')
 
+const h1Title = document.querySelector('h1')
+h1Title.textContent = new Date().getFullYear()
 
 const btnOne = document.querySelector('#btnOne')
 const btnTwo = document.querySelector('#btnTwo')
